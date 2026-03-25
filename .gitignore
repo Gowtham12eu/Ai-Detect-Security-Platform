@@ -1,0 +1,115 @@
+# 🔴 SECURITY - API Keys & Credentials
+.env
+.env.local
+.env.*.local
+.env.production.local
+ai-engine/.env
+backEnd/.env
+frontEnd/.env
+
+# 🔴 Exposed Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+secrets/
+credentials/
+
+# 🟡 Python Cache & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 🟡 Node.js & Package Management
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+lerna-debug.log
+.pnpm-debug.log
+
+# 🟡 Next.js & Frontend Build Outputs
+.next/
+out/
+.vercel
+.netlify
+.nuxt
+dist/
+.cache/
+.gatsby-cache
+
+# 🟡 IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 🔴 OUTPUT & LOG FILES (DO NOT COMMIT)
+*.log
+*.txt
+test_output.txt
+ai_out.txt
+ai_out_utf8.txt
+backend_out.txt
+backend_out_utf8.txt
+backend_health.txt
+logs/
+
+# 🟡 Test Coverage & Reports
+coverage/
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+.nyc_output
+coverage.lcov
+
+# 🟡 Temporary & Build
+*.tmp
+*.temp
+temp/
+tmp/
+*.bak
+*.swp
+.turbo/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# 🟡 OS Files
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# 📝 Local Development Files
+.env.local
+docker-compose.override.yml
+local-settings.json
